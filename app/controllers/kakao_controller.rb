@@ -15,7 +15,7 @@ class KakaoController < ApplicationController
 
     if user_message == "꽃다발"
       image = true
-      img_url = ["http://www.cultwo-flower.com/shopimages/c2c2/0240020000503.jpg?1423883270"].sample(1)
+      img_url = ["http://www.cultwo-flower.com/shopimages/c2c2/0240020000503.jpg?1423883270"].sample(1)[0]
     elsif user_message == "화분"
     elsif user_message == "꽃바구니"
     elsif user_message == "조화"
