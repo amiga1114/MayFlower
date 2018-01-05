@@ -66,7 +66,7 @@ class KakaoController < ApplicationController
       :message_button => {
         :label => "상품 더보기",
         :url => link_url
-      }
+      },
       :keyboard => home_keyboard
     }
 
