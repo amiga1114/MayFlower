@@ -15,7 +15,7 @@ class KakaoController < ApplicationController
 
     if user_message == "꽃다발"
       image = true
-      return_text = "꽃다발을 추천해드립니다."
+      return_text = "꽃다발을 추천해드립니다:)"
       img_url = ["http://www.cultwo-flower.com/shopimages/c2c2/0240020000503.jpg?1423883270",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi4J36cM3wRtCuFhHQepO1rMYUPpx10P9xF0gK2kr4ulIxW2F_",
         "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12747656_1572931359698816_1377885648_n.jpg?ig_cache_key=MTE5MDQ4NDkzMzc0NDExOTQ5NQ%3D%3D.2",
@@ -23,7 +23,7 @@ class KakaoController < ApplicationController
         "https://i.pinimg.com/736x/e4/d3/55/e4d355bdc262b9093badd0589fe707e3--bouquet-packaging-fresh-flowers.jpg"].sample
         link_url = "https://mayflower3113.herokuapp.com"
     elsif user_message == "화분"
-      return_text = "화분을 추천해드립니다."
+      return_text = "화분을 추천해드립니다:)"
       img_url = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN3VcqX4VlbxKARY3V2LbTwFtAPvAssPfZ76eg1RuSunXB8pVqRw",
         "http://cdn3a.funshop.co.kr/abroad/005/2677/pizz_0.jpg",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Y4gkffxosNu8K9-wIB-4ILZD6-cQ3ZeEXv-ZVu106PJAdPWD",
@@ -31,7 +31,7 @@ class KakaoController < ApplicationController
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_Ic4iqB8oN2pp5XwKEweqFV3okrEWC0Vp3jm7tZcM4wdX2F5"].sample
         link_url = "https://mayflower3113.herokuapp.com"
     elsif user_message == "꽃바구니"
-      return_text = "꽃다구니를 추천해드립니다."
+      return_text = "꽃다구니를 추천해드립니다:)"
       img_url = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TI4HE-7YSbqJNieBGZ1xtgD2ARFUGnG_Dnng6OYK9CguMs42",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFF0U7GXqco9uNoH-EJTq_jbPF161GUY1Rvp7pgnRlaaLOiiI2Q",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb4u4e5LRAVwZI--Dl3OOuKtE78vYU_EW082zmxON2zYyKfdWFtQ",
@@ -39,7 +39,7 @@ class KakaoController < ApplicationController
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaBXWNBKnV8qFBR3SMVUSGEpQnVAFmTrCrtzVhaFz92OD9QlV9qA"].sample
         link_url = "https://mayflower3113.herokuapp.com"
     elsif user_message == "조화"
-      return_text = "조화를 추천해드립니다."
+      return_text = "조화를 추천해드립니다:)"
       img_url = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwhzuCGEbvCBVEtchUFm9JX1qE5_N49shE__qA0jR6BZdnFqek",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUNXMl-hPYWd9XXV2H6TD9mgnLfme6ah0oE5GfEZNu4sfaR1eW5A",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgMh5Bac0_rfzAR2lSIGjpWyNhovIhQpPzdXHkHJofltUTj0qU",
