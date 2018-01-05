@@ -61,11 +61,11 @@ class KakaoController < ApplicationController
           :url => img_url,
           :width => 640,
           :height => 480
+        },
+        :message_button => {
+          :label => "상품 더보기",
+          :url => link_url
         }
-      },
-      :message_button => {
-        :label => "상품 더보기",
-        :url => link_url
       },
       :keyboard => home_keyboard
     }
